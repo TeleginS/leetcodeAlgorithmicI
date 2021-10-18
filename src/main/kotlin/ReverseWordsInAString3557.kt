@@ -29,8 +29,8 @@ class ReverseWordsInAString3557 {
     private fun reverseWords(s: String): String {
         val wordArray = s.split(' ')
         var result = ""
-        for (wordIdx in wordArray.indices) {
-            val rev = reverseString(wordArray[wordIdx].toCharArray())
+        for (word in wordArray) {
+            val rev = reverseString(word.toCharArray())
             result = String.format("%s %s", result, rev)
         }
         return result.trim()

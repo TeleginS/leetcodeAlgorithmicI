@@ -28,7 +28,7 @@ open class VersionControl{
 */
 
 class FirstBadVersion278() {
-    override fun firstBadVersion(n: Int) : Int {
+    fun firstBadVersion(n: Int) : Int {
         var left = 0
         var right = n
         while(left < right) {

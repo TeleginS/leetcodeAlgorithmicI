@@ -1,4 +1,6 @@
+import Medium.RotateArray
+
 fun main() {
-    val s = ReverseWordsInAString3557()
+    val s = RotateArray()
     s.run()
 }

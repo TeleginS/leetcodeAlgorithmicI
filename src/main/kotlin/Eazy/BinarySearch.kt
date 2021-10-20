@@ -1,4 +1,4 @@
-/*
+package Eazy/*
 https://leetcode.com/problems/binary-search/
 Given an array of integers nums which is sorted in ascending order, and an integer target, write a function to search target in nums. If target exists, then return its index. Otherwise, return -1.
 
@@ -15,7 +15,7 @@ Output: -1
 Explanation: 2 does not exist in nums so return -1
 */
 
-class BinarySearch704 {
+class BinarySearch {
     fun search(nums: IntArray, target: Int): Int {
         val length = (nums.count() - 1)
         val searchPoint = length / 2

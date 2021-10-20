@@ -1,4 +1,4 @@
-/*
+package Eazy/*
 https://leetcode.com/problems/search-insert-position/
 
 Given a sorted array of distinct integers and a target value, return the index if the target is found.
@@ -34,7 +34,7 @@ nums contains distinct values sorted in ascending order.
 ########################################
 */
 
-class SearchInsertPosition35 {
+class SearchInsertPosition {
     fun run() {
         var nums: Array<Int>
         var target: Int

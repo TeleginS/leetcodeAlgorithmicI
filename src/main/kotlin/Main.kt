@@ -1,6 +1,6 @@
 import Medium.RotateArray
 
 fun main() {
-    val s = RotateArray()
-    s.run()
+    val i = 1.mod(2)
+    print(i)
 }

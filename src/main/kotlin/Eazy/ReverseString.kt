@@ -1,4 +1,4 @@
-/*
+package Eazy/*
 https://leetcode.com/problems/reverse-string/
 Write a function that reverses a string. The input string is given as an array of characters s.
 
@@ -12,7 +12,7 @@ Output: ["h","a","n","n","a","H"]
 */
 
 
-class ReverseString344 {
+class ReverseString {
     fun run() {
         reverseString("A man, a plan, a canal: Panama".toCharArray())
     }

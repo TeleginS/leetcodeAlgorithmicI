@@ -1,4 +1,4 @@
-/*
+package Eazy/*
 https://leetcode.com/problems/first-bad-version/
 You are a product manager and currently leading a team to develop a new product. Unfortunately, the latest version of your product fails the quality check. Since each version is developed based on the previous version, all the versions after a bad version are also bad.
 
@@ -27,7 +27,7 @@ open class VersionControl{
 }
 */
 
-class FirstBadVersion278() {
+class FirstBadVersion() {
     fun firstBadVersion(n: Int) : Int {
         var left = 0
         var right = n

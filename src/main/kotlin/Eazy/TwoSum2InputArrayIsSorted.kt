@@ -1,4 +1,4 @@
-/*
+package Eazy/*
 https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
 Given a 1-indexed array of integers numbers that is already sorted in non-decreasing order, find two numbers such that they add up to a specific target number. Let these two numbers be numbers[index1] and numbers[index2] where 1 <= first < second <= numbers.length.
 
@@ -25,7 +25,7 @@ Explanation: The sum of -1 and 0 is -1. Therefore index1 = 1, index2 = 2.
 */
 
 
-class TwoSum2InputArrayIsSorted167 {
+class TwoSum2InputArrayIsSorted {
     fun run() {
         var result: IntArray
 
